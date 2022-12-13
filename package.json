@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "leaflet": "^1.9.3",
+    "nodemailer": "^6.8.0",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4"
+  },
+  "name": "backend1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon ./server.js localhost 3001",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
