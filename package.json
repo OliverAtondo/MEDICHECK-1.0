@@ -1,23 +1,26 @@
 {
   "dependencies": {
+    "ask-sdk-core": "^2.12.1",
+    "ask-sdk-express-adapter": "^2.12.1",
     "express": "^4.18.2",
-    "http": "^0.0.1-security",
-    "leaflet": "^1.9.3",
+    "morgan": "^1.10.0",
+    "ngrok": "^4.3.3",
     "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "require": "^2.4.20",
     "socket.io": "^4.5.4",
     "socket.io-client": "^4.5.4"
   },
-  "name": "backend1",
+  "name": "testalexa",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  },
+  "main": "server.mjs",
   "scripts": {
-    "start": "nodemon ./server.js localhost 3001",
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {},
+  "keywords": [],
   "description": ""
 }
