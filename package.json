@@ -1,26 +1,24 @@
 {
+  "name": "ulti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js localhost 5001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "ask-sdk-core": "^2.12.1",
     "ask-sdk-express-adapter": "^2.12.1",
     "express": "^4.18.2",
+    "http": "^0.0.1-security",
     "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
     "ngrok": "^4.3.3",
-    "nodemailer": "^6.8.0",
-    "nodemon": "^2.0.20",
-    "require": "^2.4.20",
-    "socket.io": "^4.5.4",
+    "socket.io": "^1.7.4",
     "socket.io-client": "^4.5.4"
-  },
-  "name": "testalexa",
-  "version": "1.0.0",
-  "main": "server.mjs",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.mjs"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {},
-  "keywords": [],
-  "description": ""
+  }
 }
