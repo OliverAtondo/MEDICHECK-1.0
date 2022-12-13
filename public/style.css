@@ -1,0 +1,126 @@
+#map {
+  height: 100vh;
+  width: 75vw;
+  display: table-cell;
+}
+.leaflet-popup-content-wrapper {
+  width: 100%;
+}
+
+body{
+  background: white;
+}
+
+h1 {
+  position: sticky;
+  top: 20px;
+  text-align: center;
+  color: #c10000;
+  font-size: 3vw;
+  font-family: "San Francisco";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+.emer{
+  border-radius: 25px;
+  background: #cacaca;
+  padding: 20px;
+  width: 20vw;
+  height: 12vh;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  margin-bottom: 2vh;
+}
+.emer:hover {
+  color: WHITE;
+  background: #c10000;
+}
+
+#tareas {
+  height: 85vh;
+  overflow-y: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#tareas::-webkit-scrollbar {
+  display: none;
+}
+
+.derecha{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25vw;
+  height: 500px;
+  display: table-cell;
+}
+
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 15vw;
+  height: 3vh;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+
+/* 5 */
+.btn-5 {
+  width: 15vw;
+  height: 5vh;
+  line-height: 1vh;
+  padding: 0;
+  border: none;
+  background:#c10000;
+background: linear-gradient(0deg,#c10000 0%, #e70000 100%);
+}
+.btn-5:hover {
+  color: #ffffff;
+  background: transparent;
+   box-shadow:none;
+}
+.btn-5:before,
+.btn-5:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #ffffff;
+  box-shadow:
+   -1px -1px 5px 0px #fff,
+   7px 7px 20px 0px #0003,
+   4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.btn-5:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
